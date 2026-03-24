@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #121212;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background: black;
+    padding: 20px;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background: #1db954;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.player img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.player audio {
+    display: block;
+    margin: 20px auto;
+    width: 320px;
+    filter: sepia(1) saturate(5);
+}
+
+#barra {
+    width: 80%;
+}
+
+.tiempo {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.letra {
+    margin-top: 20px;
+}
